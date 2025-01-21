@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACE</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #b3e5fc;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">ACE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <!-- Study Materials Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="studyMaterialsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Study Materials
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="studyMaterialsDropdown">
+                            <li><a class="dropdown-item" href="#semester1">Semester 1</a></li>
+                            <li><a class="dropdown-item" href="#semester2">Semester 2</a></li>
+                            <li><a class="dropdown-item" href="#semester3">Semester 3</a></li>
+                            <li><a class="dropdown-item" href="#semester4">Semester 4</a></li>
+                        </ul>
+                    </li>
+    
+                    <!-- Solved Papers Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="solvedPapersDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Solved Papers
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="solvedPapersDropdown">
+                            <li><a class="dropdown-item" href="#semester1">Semester 1</a></li>
+                            <li><a class="dropdown-item" href="#semester2">Semester 2</a></li>
+                            <li><a class="dropdown-item" href="#semester3">Semester 3</a></li>
+                            <li><a class="dropdown-item" href="#semester4">Semester 4</a></li>
+                        </ul>
+                    </li>
+    
+                    <!-- Quizzes Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="quizzesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Quizzes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="quizzesDropdown">
+                            <li><a class="dropdown-item" href="#semester1">Semester 1</a></li>
+                            <li><a class="dropdown-item" href="#semester2">Semester 2</a></li>
+                            <li><a class="dropdown-item" href="#semester3">Semester 3</a></li>
+                            <li><a class="dropdown-item" href="#semester4">Semester 4</a></li>
+                        </ul>
+                    </li>
+    
+                    <!-- Contact Us -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <div class="container my-4">
+        <div class="row">
+            <aside class="col-lg-3 col-md-4 col-12">
+                <div class="sidebar">
+                    <h3>Semesters</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="./sem1.html">Semester 1</a></li>
+                        <li class="list-group-item"><a href="./sem2.html">Semester 2</a></li>
+                        <li class="list-group-item"><a href="./sem3.html">Semester 3</a></li>
+                        <li class="list-group-item"><a href="./sem4.html">Semester 4</a></li>
+                    </ul>
+                </div>
+            </aside>
+
+            <main class="col-lg-6 col-md-8 col-12">
+                <div class="content">
+                    <h2 id="study-materials">Study Materials</h2>
+                    <p>Find comprehensive notes for all units of your syllabus here.</p>
+
+                    <h2 id="solved-papers">Solved Past Year Papers</h2>
+                    <p>Access solved papers from previous years to aid your preparation.</p>
+
+                    <h2 id="quizzes">Interactive Quizzes</h2>
+                    <p>Test your knowledge with quizzes designed for each subject.</p>
+                </div>
+            </main>
+
+            <aside class="col-lg-3 col-md-4 col-12 mt-3 mt-md-0">
+                <h3 style="margin-bottom: 10px; text-align: center;">Recent Notices</h3>
+                <div class="sidebar scrolling-notices">
+                    <ul>
+                        <li>Midterm exams start from March 15th.</li>
+                        <li>Project submission deadline extended to April 10th.</li>
+                        <li>New study materials added for Accounting.</li>
+                        <li>Join our webinar on "Career Planning" on March 20th.</li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="content">
+                    <h2>Additional Resources</h2>
+                    <p>Explore additional learning resources and updates tailored for your academic growth.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 ACE. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
