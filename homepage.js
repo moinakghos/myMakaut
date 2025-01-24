@@ -40,7 +40,7 @@ const firebaseConfig = {
         })
     }
     else{
-        console.log("User Id not Found in Local storage")
+        window.location.href = "index.html";
     }
   })
 
